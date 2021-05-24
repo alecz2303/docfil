@@ -24,4 +24,6 @@ class Paciente extends Model
         'respiratorio','cual_respiratorio','fuma','embarazada','meses_embarazo','dengue','covid','saturacion_oxigeno','temperatura','ppm',
         'observaciones'
     ];
+
+    protected $dates = ['deleted_at'];
 }
